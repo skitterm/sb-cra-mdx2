@@ -13,6 +13,9 @@ module.exports = {
   "core": {
     "builder": "@storybook/builder-webpack5"
   },
+  "features": {
+    "previewMdx2": true
+  },
   "webpackFinal": (config) => {
       const path = require('path');
       // add monorepo root as a valid directory to import modules from
